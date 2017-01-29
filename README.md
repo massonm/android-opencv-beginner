@@ -207,7 +207,7 @@ How to create your own Android app based on OpenCV in Android Studio ?
     * [how i use opencv on android studio](http://answers.opencv.org/question/118335/how-i-use-opencv-on-android-studio/)
     * [OpenCV in Android Studio](http://stackoverflow.com/questions/27406303/opencv-in-android-studio#answer-27421494)
 
-**/!\\ do not copy folder from `OpenCV-android-sdk/sdk/native/libs/` into `app/src/main` but into `app/` instead ! **  
+**/!\\ do not copy folder from `OpenCV-android-sdk/sdk/native/libs/` into `app/src/main` but into `app/` instead !**  
 Otherwise your APK file will contain all these files (that should be handled by _OpenCV Manager_) and will **have a very big size** !  
 Then do no forget to rename it into: `jniLibs`.
 
